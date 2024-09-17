@@ -10,13 +10,13 @@ export const Hero = () => {
       <div className="text-center lg:text-start space-y-6">
         <main className="text-5xl md:text-6xl font-bold">
           <h1 className="inline">
-            Capitalise your{' '}
+            CAPITALISE YOUR{' '}
             <span className="inline bg-gradient-to-r from-[#F9D423] via-[#F4A623] to-[#D4AF37] text-transparent bg-clip-text">
               WEALTH
             </span>{' '}
           </h1>{' '}
           <h2>
-            with{' '}
+            WITH{' '}
             <span className="inline bg-gradient-to-r from-[#1D2B64]  to-[#8A4FFF] text-transparent bg-clip-text">
               AIMS
             </span>{' '}
