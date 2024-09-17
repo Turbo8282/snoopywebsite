@@ -1,18 +1,18 @@
 'use client';
-
 import { Statistics } from '@/components/landing/Statistics';
+import Lottie from 'lottie-react';
+import analyticsHubAnimation from '@/public/landing/analyticsHub.json';
 
 export const About = () => {
   return (
     <section id="about" className="container py-24 sm:py-32">
       <div className="bg-muted/50 border rounded-lg py-12">
         <div className="px-6 flex flex-col-reverse md:flex-row gap-8 md:gap-12">
-          <img
-            src="/landing/pilot.png"
-            alt=""
-            className="w-[300px] object-contain rounded-lg"
+          <Lottie
+            animationData={analyticsHubAnimation}
+            className="w-full md:w-2/6 h-auto" // Adjust Lottie size to cover half
           />
-          <div className="bg-green-0 flex flex-col justify-between">
+          <div className="bg-green-0 flex flex-col justify-between w-full md:w-4/6">
             <div className="pb-6">
               <h2 className="text-3xl md:text-4xl font-bold">
                 <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">

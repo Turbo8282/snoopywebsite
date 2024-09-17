@@ -13,6 +13,8 @@ import {
 import { Check, Linkedin } from 'lucide-react';
 import { LightBulbIcon } from '@/components/landing/Icons';
 import { GitHubLogoIcon } from '@radix-ui/react-icons';
+import Lottie from 'lottie-react';
+import floatingCoinAnimation from '@/public/landing/animationCoin.json';
 
 export const HeroCards = () => {
   return (
@@ -37,10 +39,14 @@ export const HeroCards = () => {
       {/* Team */}
       <Card className="absolute right-[20px] top-4 w-80 flex flex-col justify-center items-center drop-shadow-xl shadow-black/10 dark:shadow-white/10">
         <CardHeader className="mt-8 flex justify-center items-center pb-2">
-          <img
+          {/* <img
             src="https://i.pravatar.cc/150?img=58"
             alt="user avatar"
             className="absolute grayscale-[0%] -top-12 rounded-full w-24 h-24 aspect-square object-cover"
+          /> */}
+          <Lottie
+            className="absolute grayscale-[0%] -top-12 rounded-full w-24 h-24 aspect-square object-cover"
+            animationData={floatingCoinAnimation}
           />
           <CardTitle className="text-center">Leo Miranda</CardTitle>
           <CardDescription className="font-normal text-primary">
