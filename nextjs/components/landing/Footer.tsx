@@ -1,5 +1,5 @@
 'use client';
-import { LogoIcon } from './Icons';
+import { LogoIcon, LogoTextIcon } from './Icons';
 
 export const Footer = () => {
   return (
@@ -11,10 +11,10 @@ export const Footer = () => {
           <a
             rel="noreferrer noopener"
             href="/"
-            className="font-bold text-xl flex items-center gap-1"
+            className="font-bold text-xl flex items-center"
           >
             <LogoIcon />
-            <p>AIMS</p>
+            <LogoTextIcon />
           </a>
         </div>
 

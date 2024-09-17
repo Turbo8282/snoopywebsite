@@ -17,7 +17,7 @@ import {
 import { Button, buttonVariants } from '@/components/ui/button';
 import { Menu } from 'lucide-react';
 import { ModeToggle } from './mode-toggle';
-import { LogoIcon } from './Icons';
+import { LogoIcon, LogoTextIcon } from './Icons';
 import { User } from '@supabase/supabase-js';
 import { createApiClient } from '@/utils/supabase/api';
 import { createClient } from '@/utils/supabase/client';
@@ -71,10 +71,10 @@ export const Navbar = ({ user }: { user: User | null }) => {
             <a
               rel="noreferrer noopener"
               href="/"
-              className="ml-2 font-bold text-xl flex items-center gap-1"
+              className="ml-2 font-bold text-xl flex items-center"
             >
               <LogoIcon />
-              <p>AIMS</p>
+              <LogoTextIcon />
             </a>
           </NavigationMenuItem>
 

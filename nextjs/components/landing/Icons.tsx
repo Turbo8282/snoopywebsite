@@ -1,5 +1,6 @@
 'use client';
 import Image from 'next/image';
+import { useTheme } from './theme-provider';
 export const LogoIcon = () => {
   return (
     <Image
@@ -9,6 +10,28 @@ export const LogoIcon = () => {
       height={35}
       priority
     />
+  );
+};
+
+export const LogoTextIcon = () => {
+  const { theme } = useTheme();
+  let imageSrc =
+    theme === 'dark' || theme !== 'light'
+      ? '/landing/aimstext_white_transparent.png'
+      : '/landing/aimstext.png';
+  if (theme === 'system') {
+    const systemTheme = window.matchMedia('(prefers-color-scheme: dark)')
+      .matches
+      ? 'dark'
+      : 'light';
+    imageSrc =
+      systemTheme === 'dark' || systemTheme !== 'light'
+        ? '/landing/aimstext_white_transparent.png'
+        : '/landing/aimstext.png';
+  }
+
+  return (
+    <Image src={imageSrc} alt="AIMS Logo" width={70} height={70} priority />
   );
 };
 
