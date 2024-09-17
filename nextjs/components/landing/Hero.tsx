@@ -28,20 +28,11 @@ export const Hero = () => {
           funds or borrowing from our range of loan options.
         </p>
 
-        <div className="space-y-4 md:space-y-0 md:space-x-4">
-          <Button className="w-full md:w-1/3">Get Started</Button>
-
-          <a
-            rel="noreferrer noopener"
-            href="https://github.com/leoMirandaa/shadcn-landing-page.git"
-            target="_blank"
-            className={`w-full md:w-1/3 ${buttonVariants({
-              variant: 'outline'
-            })}`}
-          >
-            Github Repository
-            <GitHubLogoIcon className="ml-2 w-5 h-5" />
-          </a>
+        <div className="space-y-4 md:space-y-0 space-x-4">
+          <Button className="w-2/5 md:w-1/3">Invest</Button>
+          <Button className="w-2/5 md:w-1/3" variant="outline">
+            Borrow
+          </Button>
         </div>
       </div>
 
@@ -49,9 +40,6 @@ export const Hero = () => {
       <div className="z-10">
         <HeroCards />
       </div>
-
-      {/* Shadow effect */}
-      <div className="shadow"></div>
     </section>
   );
 };

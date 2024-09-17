@@ -67,7 +67,7 @@
   rotate: 35deg;
 
   width: 260px;
-  top: 200px;
+  top: 50px;
   height: 400px;
   filter: blur(150px);
   animation: shadow-slide infinite 4s linear alternate;
