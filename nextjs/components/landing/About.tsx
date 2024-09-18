@@ -6,8 +6,8 @@ import analyticsHubAnimation from '@/public/landing/analyticsHub.json';
 export const About = () => {
   return (
     <section id="about" className="container py-24 sm:py-32">
-      <div className="bg-muted/50 border rounded-lg py-12">
-        <div className="px-6 flex flex-col-reverse md:flex-row gap-8 md:gap-12">
+      <div className="bg-muted/50 border rounded-lg py-6 md:py-12">
+        <div className="px-4 md:px-6 flex flex-col-reverse md:flex-row gap-8 md:gap-12">
           <Lottie
             animationData={analyticsHubAnimation}
             className="w-full md:w-2/6 h-auto" // Adjust Lottie size to cover half
@@ -20,7 +20,7 @@ export const About = () => {
                 </span>
                 AIMS
               </h2>
-              <p className="text-xl text-muted-foreground mt-4">
+              <p className="text-base md:text-xl text-muted-foreground mt-4">
                 AIMS Financial Group (AIMS) is a diversified financial services
                 and investment group active in the areas of funds management,
                 mortgage lending, investment banking and property investment.
