@@ -7,7 +7,7 @@ import {
 } from '@/components/ui/card';
 import { MagnifierIcon, WalletIcon, ChartIcon } from './Icons';
 import Lottie from 'lottie-react';
-import animationBuildings from '@/public/landing/animationBuildings.json';
+import animationBuildings from '@/public/landing/animationBuildingsCloudless.json';
 
 interface ServiceProps {
   title: string;
