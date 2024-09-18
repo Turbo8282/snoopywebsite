@@ -24,12 +24,12 @@ export const About = () => {
                 AIMS Financial Group (AIMS) is a diversified financial services
                 and investment group active in the areas of funds management,
                 mortgage lending, investment banking and property investment.
-                AIMS is also the owner of the Sydney Stock Exchange. Since 1991,
-                AIMS has raised approximately A$4.0 billion in funds from the
-                capital markets. Of this, AIMS has issued approximately A$3.0
-                billion in residential mortgage-based securities, with most of
-                them rated AAA by both Standard & Poors and Fitch Ratings, and
-                has originated over A$9.0 billion mortgage since 1991.
+                Since 1991, AIMS has raised approximately A$4.0 billion in funds
+                from the capital markets. Of this, AIMS has issued approximately
+                A$3.0 billion in residential mortgage-based securities, with
+                most of them rated AAA by both Standard & Poors and Fitch
+                Ratings, and has originated over A$9.0 billion mortgage since
+                1991. AIMS is the owner of the Sydney Stock Exchange.
               </p>
             </div>
 

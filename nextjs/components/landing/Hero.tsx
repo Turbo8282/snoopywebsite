@@ -22,7 +22,7 @@ export const Hero = () => {
         </main>
 
         <p className="text-lg md:text-xl text-muted-foreground md:w-10/12 mx-auto lg:mx-0">
-          Grow your portfolio effortlessly by investing in AIMS' diversified
+          Grow your portfolio effortlessly by investing in diversified AIMS
           funds or borrowing from our range of loan options.
         </p>
 

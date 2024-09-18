@@ -6,6 +6,8 @@ import {
   CardTitle
 } from '@/components/ui/card';
 import { MagnifierIcon, WalletIcon, ChartIcon } from './Icons';
+import Lottie from 'lottie-react';
+import animationBuildings from '@/public/landing/animationBuildings.json';
 
 interface ServiceProps {
   title: string;
@@ -53,7 +55,10 @@ export const Services = () => {
 
           <div className="flex flex-col gap-8">
             {serviceList.map(({ icon, title, description }: ServiceProps) => (
-              <Card key={title}>
+              <Card
+                key={title}
+                className="transform hover:scale-105 transition duration-300 ease-in-out hover:cursor-pointer"
+              >
                 <CardHeader className="space-y-1 flex md:flex-row justify-start items-start gap-4">
                   <div className="mt-1 bg-primary/20 p-1 rounded-2xl">
                     {icon}
@@ -70,11 +75,17 @@ export const Services = () => {
           </div>
         </div>
 
-        <img
+        {/* <img
           src="/landing/cube-leg.png"
           className="w-[300px] md:w-[500px] lg:w-[600px] object-contain"
           alt="About services"
-        />
+        /> */}
+        <div className="flex items-end justify-center w-full h-full">
+          <Lottie
+            animationData={animationBuildings}
+            className="w-full h-auto"
+          />
+        </div>
       </div>
     </section>
   );

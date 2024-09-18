@@ -57,7 +57,10 @@ export const HowItWorks = () => {
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
         {features.map(({ icon, title, description }: FeatureProps) => (
-          <Card key={title} className="bg-muted/50">
+          <Card
+            key={title}
+            className="bg-muted/50 transform hover:scale-110 transition duration-300 ease-in-out hover:cursor-pointer"
+          >
             <CardHeader>
               <CardTitle className="grid gap-4 place-items-center">
                 {icon}

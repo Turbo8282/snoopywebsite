@@ -10,7 +10,7 @@ import { Newsletter } from '@/components/landing/Newsletter';
 import { Pricing } from '@/components/landing/Pricing';
 import { ScrollToTop } from '@/components/landing/ScrollToTop';
 import { Services } from '@/components/landing/Services';
-import { Sponsors } from '@/components/landing/Sponsors';
+import { Awards } from '@/components/landing/Awards';
 import { Team } from '@/components/landing/Team';
 import { Testimonials } from '@/components/landing/Testimonials';
 import { createClient } from '@/utils/supabase/server';
@@ -26,7 +26,7 @@ export default async function LandingPage() {
     <>
       <Navbar user={user} />
       <Hero />
-      <Sponsors />
+      <Awards />
       <About />
       <HowItWorks />
       <Features />
