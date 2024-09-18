@@ -9,15 +9,10 @@ export const Hero = () => {
         <main className="text-3xl md:text-5xl lg:text-6xl font-bold">
           <h1 className="inline">
             CAPITALISE YOUR{' '}
-            <span className="inline bg-gradient-to-r from-[#F9D423] via-[#F4A623] to-[#D4AF37] text-transparent bg-clip-text">
-              WEALTH
-            </span>{' '}
+            <span className="inline text-[#F4A623]">WEALTH</span>{' '}
           </h1>{' '}
           <h2>
-            WITH{' '}
-            <span className="inline bg-gradient-to-r from-[#1D2B64]  to-[#8A4FFF] text-transparent bg-clip-text">
-              AIMS
-            </span>{' '}
+            WITH <span className="inline text-[#8A4FFF]">AIMS</span>{' '}
           </h2>
         </main>
 

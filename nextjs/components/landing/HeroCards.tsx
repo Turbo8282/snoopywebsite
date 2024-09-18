@@ -24,11 +24,11 @@ export const HeroCards = () => {
       {/* Testimonial */}
       <Card className="absolute w-[340px] -top-[15px] drop-shadow-xl shadow-black/10 dark:shadow-white/10">
         <CardHeader className="flex flex-row items-center gap-4 pb-2">
-          <Avatar>
+          {/*   <Avatar>
             <AvatarImage alt="" src="https://github.com/shadcn.png" />
             <AvatarFallback>SH</AvatarFallback>
           </Avatar>
-
+ */}
           <div className="flex flex-col">
             <CardTitle className="text-lg">John Doe React</CardTitle>
             <CardDescription>@john_doe</CardDescription>
