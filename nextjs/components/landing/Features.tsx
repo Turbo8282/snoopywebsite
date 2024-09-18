@@ -7,7 +7,7 @@ import {
   CardHeader,
   CardTitle
 } from '@/components/ui/card';
-
+import exploreSVG from '@/public/landing/undraw_explore.svg';
 interface FeatureProps {
   title: string;
   description: string;
@@ -16,22 +16,21 @@ interface FeatureProps {
 
 const features: FeatureProps[] = [
   {
-    title: 'Responsive Design',
+    title: 'Explore solutions',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.',
-    image: '/landing/looking-ahead.png'
+      'Discover tailored strategies to grow your wealth or secure funding with ease.',
+    image: '/landing/undraw_explore.svg'
   },
   {
-    title: 'Intuitive user interface',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.',
-    image: '/landing/reflecting.png'
+    title: 'Evaluate finances',
+    description: 'Track spending, savings, and future growth opportunities.',
+    image: '/landing/undraw_finance.svg'
   },
   {
-    title: 'AI-Powered insights',
+    title: 'Easy online transfer',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.',
-    image: '/landing/growth.png'
+      'Seamlessly move funds between accounts with our secure, user-friendly platform.',
+    image: '/landing/undraw_pay_online.svg'
   }
 ];
 
@@ -80,7 +79,7 @@ export const Features = () => {
               <img
                 src={image}
                 alt="About feature"
-                className="w-[200px] lg:w-[300px] mx-auto"
+                className="h-[200px] lg:h-[300px] w-auto mx-auto"
               />
             </CardFooter>
           </Card>

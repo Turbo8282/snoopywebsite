@@ -8,7 +8,6 @@ import {
 import { MagnifierIcon, WalletIcon, ChartIcon } from './Icons';
 import Lottie from 'lottie-react';
 import animationBuildings from '@/public/landing/animationBuildingsCloudless.json';
-
 interface ServiceProps {
   title: string;
   description: string;
@@ -43,9 +42,9 @@ export const Services = () => {
         <div>
           <h2 className="text-3xl md:text-4xl font-bold">
             <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
-              Client-Centric{' '}
+              Premier{' '}
             </span>
-            Services
+            Properties
           </h2>
 
           <p className="text-muted-foreground text-xl mt-4 mb-8 ">

@@ -11,9 +11,9 @@ export const Cta = () => {
             All Your
             <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
               {' '}
-              Ideas & Concepts{' '}
+              Investing & Borrowing{' '}
             </span>
-            In One Interface
+            Here
           </h2>
           <p className="text-muted-foreground text-xl mt-4 mb-8 lg:mb-0">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque,

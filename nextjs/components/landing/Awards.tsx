@@ -36,7 +36,7 @@ const sponsors: AwardsProps[] = [
 export const Awards = () => {
   return (
     <section id="sponsors" className="container pt-12 md:pt-24 sm:py-32">
-      <h2 className="text-center text-md lg:text-xl font-bold mb-8 text-primary">
+      <h2 className="text-center text-2xl md:text-3xl font-bold mb-8 text-primary">
         Our Awards
       </h2>
 

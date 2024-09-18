@@ -35,7 +35,10 @@ export const HeroCards = () => {
           </div>
         </CardHeader>
 
-        <CardContent>This landing page is awesome!</CardContent>
+        <CardContent>
+          {' '}
+          Lorem ipsum dolor sit, amet ipsum consectetur adipisicing elit.
+        </CardContent>
       </Card>
 
       {/* Team */}
@@ -50,16 +53,16 @@ export const HeroCards = () => {
             className="absolute grayscale-[0%] -top-12 rounded-full w-24 h-24 aspect-square object-cover"
             animationData={floatingCoinAnimation}
           />
-          <CardTitle className="text-center">Leo Miranda</CardTitle>
+          <CardTitle className="text-center">Invest in funds</CardTitle>
           <CardDescription className="font-normal text-primary">
-            Frontend Developer
+            AIMS funds
           </CardDescription>
         </CardHeader>
 
         <CardContent className="text-center pb-2">
           <p>
-            I really enjoy transforming ideas into functional software that
-            exceeds expectations
+            I really enjoy Lorem ipsum dolor sit, amet ipsum consectetur
+            adipisicing elit.
           </p>
         </CardContent>
 
