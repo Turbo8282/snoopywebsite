@@ -24,7 +24,7 @@ export const Hero = () => {
         <div className="space-y-4 md:space-y-0 space-x-4">
           <Button className="w-2/5 md:w-1/3">Invest</Button>
           <Button className="w-2/5 md:w-1/3" variant="outline">
-            Borrow
+            Loans
           </Button>
         </div>
       </div>
