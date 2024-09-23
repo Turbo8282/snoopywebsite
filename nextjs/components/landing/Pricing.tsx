@@ -84,7 +84,7 @@ const pricingList: PricingProps[] = [
   }
 ];
 
-export const Pricing = ({ user }: { user: User | null }) => {
+export const Pricing = () => {
   const { toast } = useToast();
   const router = useRouter();
   const supabase = createClient();
@@ -94,11 +94,6 @@ export const Pricing = ({ user }: { user: User | null }) => {
       return router.push(price.redirectURL);
     }
     setLoading(true);
-
-    if (!user) {
-      setLoading(false);
-      return router.push('/auth/signup');
-    }
 
     const { data, error } = await supabase.functions.invoke('get_stripe_url', {
       body: {

@@ -30,7 +30,7 @@ export const HeroCards = () => {
           </Avatar>
  */}
           <div className="flex flex-col">
-            <CardTitle className="text-lg">John Doe React</CardTitle>
+            <CardTitle className="text-lg">Put ticker here</CardTitle>
             <CardDescription>@john_doe</CardDescription>
           </div>
         </CardHeader>

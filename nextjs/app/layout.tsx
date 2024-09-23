@@ -6,7 +6,9 @@ import { PHProvider } from './providers';
 import { ThemeProvider } from '@/components/landing/theme-provider';
 import dynamic from 'next/dynamic';
 import { Toaster } from '@/components/ui/toaster';
-
+import { Navbar } from '@/components/landing/Navbar';
+import { Footer } from '@/components/landing/Footer';
+import { ScrollToTop } from '@/components/landing/ScrollToTop';
 const PostHogPageView = dynamic(() => import('./PostHogPageView'), {
   ssr: false
 });
@@ -59,12 +61,15 @@ export default async function RootLayout({ children }: PropsWithChildren) {
         <PHProvider>
           <body>
             <PostHogPageView />
+            <Navbar />
             <main
               id="skip"
               className="min-h-[calc(100dvh-4rem)] md:min-h[calc(100dvh-5rem)]"
             >
               {children}
             </main>
+            <Footer />
+            <ScrollToTop />
             <Toaster />
           </body>
         </PHProvider>
