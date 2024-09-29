@@ -12,9 +12,8 @@ const PostHogPageView = dynamic(() => import('./PostHogPageView'), {
 });
 
 const meta = {
-  title: 'AIMS Financial Group',
-  description:
-    'AIMS Financial Group (AIMS) is a diversified financial services and investment group',
+  title: 'Omochi',
+  description: 'Omochi is a viral memecoin frog on Solana',
   cardImage: '/og.png',
   robots: 'follow, index',
   favicon: '/favicon.ico',
