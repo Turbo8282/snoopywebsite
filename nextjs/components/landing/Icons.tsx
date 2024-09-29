@@ -1,6 +1,5 @@
 'use client';
 import Image from 'next/image';
-import { useTheme } from './theme-provider';
 export const LogoIcon = () => {
   return (
     <Image
@@ -13,34 +12,12 @@ export const LogoIcon = () => {
   );
 };
 
-export const LogoTextIcon = () => {
-  const { theme } = useTheme();
-  let imageSrc =
-    theme === 'dark' || theme !== 'light'
-      ? '/landing/aimstext_white_transparent.png'
-      : '/landing/aimstext.png';
-  if (theme === 'system') {
-    const systemTheme = window.matchMedia('(prefers-color-scheme: dark)')
-      .matches
-      ? 'dark'
-      : 'light';
-    imageSrc =
-      systemTheme === 'dark' || systemTheme !== 'light'
-        ? '/landing/aimstext_white_transparent.png'
-        : '/landing/aimstext.png';
-  }
-
-  return (
-    <Image src={imageSrc} alt="AIMS Logo" width={70} height={70} priority />
-  );
-};
-
 export const MedalIcon = () => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 128 128"
-      className="w-14 fill-primary"
+      className="w-14 fill-[#F4A623]"
     >
       <title>Free Icons</title>
       <g id="Layer_8" data-name="Layer 8">
@@ -118,7 +95,7 @@ export const MapIcon = () => {
     <svg
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 128 128"
-      className="w-14 fill-primary"
+      className="w-14 fill-[#F4A623]"
     >
       <title>Free Icons</title>
       <g id="Layer_45" data-name="Layer 45">
@@ -192,7 +169,7 @@ export const PlaneIcon = () => {
     <svg
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 128 128"
-      className="w-14 fill-primary"
+      className="w-14 fill-[#F4A623]"
     >
       <title>Free Icons</title>
       <g id="Layer_4" data-name="Layer 4">
@@ -250,7 +227,7 @@ export const GiftIcon = () => {
     <svg
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 128 128"
-      className="w-14 fill-primary"
+      className="w-14 fill-[#F4A623]"
     >
       <title>Free Icons</title>
       <g id="Layer_14" data-name="Layer 14">

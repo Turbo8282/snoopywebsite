@@ -3,10 +3,8 @@ import { PropsWithChildren } from 'react';
 import { getURL } from '@/utils/helpers';
 import '@/styles/main.css';
 import { PHProvider } from './providers';
-import { ThemeProvider } from '@/components/landing/theme-provider';
 import dynamic from 'next/dynamic';
 import { Toaster } from '@/components/ui/toaster';
-import { Navbar } from '@/components/landing/Navbar';
 import { Footer } from '@/components/landing/Footer';
 import { ScrollToTop } from '@/components/landing/ScrollToTop';
 const PostHogPageView = dynamic(() => import('./PostHogPageView'), {
@@ -57,23 +55,20 @@ export async function generateMetadata(): Promise<Metadata> {
 export default async function RootLayout({ children }: PropsWithChildren) {
   return (
     <html lang="en">
-      <ThemeProvider>
-        <PHProvider>
-          <body>
-            <PostHogPageView />
-            <Navbar />
-            <main
-              id="skip"
-              className="min-h-[calc(100dvh-4rem)] md:min-h[calc(100dvh-5rem)]"
-            >
-              {children}
-            </main>
-            <Footer />
-            <ScrollToTop />
-            <Toaster />
-          </body>
-        </PHProvider>
-      </ThemeProvider>
+      <PHProvider>
+        <body>
+          <PostHogPageView />
+          <main
+            id="skip"
+            className="min-h-[calc(100dvh-4rem)] md:min-h[calc(100dvh-5rem)]"
+          >
+            {children}
+          </main>
+          <Footer />
+          <ScrollToTop />
+          <Toaster />
+        </body>
+      </PHProvider>
     </html>
   );
 }

@@ -7,20 +7,20 @@ export const Statistics = () => {
 
   const stats: statsProps[] = [
     {
-      quantity: '$3.0B',
-      description: 'Residential Securities'
+      quantity: '$30M',
+      description: 'All Time High'
     },
     {
-      quantity: '$4.0B',
-      description: 'Funds'
+      quantity: '1400',
+      description: 'Telegram Fans'
     },
     {
-      quantity: '$9.0B',
-      description: 'Mortgages'
+      quantity: '900',
+      description: 'X Followers'
     },
     {
-      quantity: 'AAA',
-      description: 'Ratings'
+      quantity: 'CTO',
+      description: 'Community'
     }
   ];
 

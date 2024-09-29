@@ -16,27 +16,26 @@ interface FeatureProps {
 const features: FeatureProps[] = [
   {
     icon: <MedalIcon />,
-    title: 'Awarded',
+    title: '1. Create Wallet',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum quas provident cum'
+      'Download Phantom or your wallet of choice from the app store or Google Play for free. Desktop users, download the Google Chrome extension by going to Phantom.'
   },
   {
     icon: <MapIcon />,
-    title: 'Community',
+    title: '2. Get SOL',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum quas provident cum'
+      'Have SOL in your wallet to switch to $OMOCHI. If you don’t have any SOL, you can buy directly on Phantom, transfer from another wallet, or buy on another exchange and send it to your wallet.'
   },
   {
     icon: <PlaneIcon />,
-    title: 'Scalability',
+    title: '3. Go to Jupiter',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum quas provident cum'
+      'Connect to Jupiter. Connect your wallet in chrome. Paste the $OMOCHI token address, select $OMOCHI, and confirm. When Phantom prompts you for a wallet signature, sign.'
   },
   {
     icon: <GiftIcon />,
-    title: 'Gamification',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum quas provident cum'
+    title: '4. Swap for Omochi',
+    description: 'Switch SOL for $OMOCHI.'
   }
 ];
 
@@ -44,15 +43,11 @@ export const HowItWorks = () => {
   return (
     <section id="howItWorks" className="container text-center py-24 sm:py-32">
       <h2 className="text-3xl md:text-4xl font-bold ">
-        How It{' '}
-        <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
-          Works{' '}
-        </span>
+        How To <span className="text-[#F4A623]">Buy </span>
         Step-by-Step Guide
       </h2>
       <p className="md:w-3/4 mx-auto mt-4 mb-8 text-xl text-muted-foreground">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis
-        dolor pariatur sit!
+        Easy and fast.
       </p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">

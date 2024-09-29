@@ -1,35 +1,33 @@
 'use client';
 import { Statistics } from '@/components/landing/Statistics';
-import Lottie from 'lottie-react';
-import analyticsHubAnimation from '@/public/landing/analyticsHub.json';
-
+import Image from 'next/image';
 export const About = () => {
   return (
     <section id="about" className="container py-24 sm:py-32">
       <div className="bg-muted/50 border rounded-lg py-6 md:py-12">
         <div className="px-4 md:px-6 flex flex-col-reverse md:flex-row gap-8 md:gap-12">
-          <Lottie
-            animationData={analyticsHubAnimation}
-            className="w-full md:w-2/6 h-auto" // Adjust Lottie size to cover half
+          <Image
+            src="/landing/omochipfp.jpg"
+            height="300"
+            width="300"
+            alt="omochi pfp"
           />
           <div className="bg-green-0 flex flex-col justify-between w-full md:w-4/6">
             <div className="pb-6">
               <h2 className="text-3xl md:text-4xl font-bold">
-                <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
-                  About{' '}
-                </span>
-                AIMS
+                <span className="text-[#81503f]">ABOUT OMOCHI</span>
               </h2>
               <p className="text-base md:text-xl text-muted-foreground mt-4">
-                AIMS Financial Group (AIMS) is a diversified financial services
-                and investment group active in the areas of funds management,
-                mortgage lending, investment banking and property investment.
-                Since 1991, AIMS has raised approximately A$4.0 billion in funds
-                from the capital markets. Of this, AIMS has issued approximately
-                A$3.0 billion in residential mortgage-based securities, with
-                most of them rated AAA by both Standard & Poors and Fitch
-                Ratings, and has originated over A$9.0 billion mortgage since
-                1991. AIMS is the owner of the Sydney Stock Exchange.
+                Omochi is the viral Tiktok frog coin on Solana. It first
+                skyrocketed to success due to the virality of the original
+                Tiktoker @tomoflys cute videos of Omochi. On 26th September
+                2024, the memecoin was made and it reached an astounding all
+                time high of ~30M market capitalisation within 24 hours,
+                trending on X and DexScreener. After the original developer
+                decided to leave OMOCHI, the community historically took the
+                initiative to takeover the memecoin after their absence. Now,
+                the memecoin is aspiring to reach new heights with its based
+                community.
               </p>
             </div>
 

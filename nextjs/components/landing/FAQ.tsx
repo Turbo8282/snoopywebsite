@@ -15,17 +15,17 @@ interface FAQProps {
 
 const FAQList: FAQProps[] = [
   {
-    question: 'Lorem ipsum?',
-    answer: 'Yes.',
+    question: 'What is OMOCHI contract address?',
+    answer: 'ESVRQ6phc55VCw7sWB6JgW3PeTB6N68kvwjfsMPcpump',
     value: 'item-1'
   },
   {
-    question: 'Lorem ipsum dolor sit amet consectetur adipisicing elit?',
+    question: 'Why did OMOCHI dump from its ATH?',
     answer:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint labore quidem quam? Consectetur sapiente iste rerum reiciendis animi nihil nostrum sit quo, modi quod.',
+      'The original dev left without linking any telegram groups or proper X accounts in the DexScreener. As a result, this made the OMOCHI community unable to capitalise on its full potential in the beginning. But, we have resolved this after the CTO.',
     value: 'item-2'
-  },
-  {
+  }
+  /*   {
     question:
       'Lorem ipsum dolor sit amet  Consectetur natus dolores minus quibusdam?',
     answer:
@@ -43,17 +43,14 @@ const FAQList: FAQProps[] = [
     answer:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint labore quidem quam? Consectetur sapiente iste rerum reiciendis animi nihil nostrum sit quo, modi quod.',
     value: 'item-5'
-  }
+  } */
 ];
 
 export const FAQ = () => {
   return (
     <section id="faq" className="container py-24 sm:py-32">
       <h2 className="text-3xl md:text-4xl font-bold mb-4">
-        Frequently Asked{' '}
-        <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
-          Questions
-        </span>
+        Frequently Asked <span className="text-[#81503f]">Questions</span>
       </h2>
 
       <Accordion type="single" collapsible className="w-full AccordionRoot">
@@ -72,7 +69,7 @@ export const FAQ = () => {
         Still have questions?{' '}
         <a
           rel="noreferrer noopener"
-          href="#"
+          href="https://x.com/omochi_cto"
           className="text-primary transition-all border-primary hover:border-b-2"
         >
           Contact us

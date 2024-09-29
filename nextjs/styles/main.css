@@ -5,7 +5,7 @@
 /* *=========== Green theme =========== */
 @layer base {
   :root {
-    --background: 0 0% 100%;
+    --background: 45 66% 82%;
     --foreground: 240 10% 3.9%;
     --card: 0 0% 100%;
     --card-foreground: 240 10% 3.9%;
@@ -27,27 +27,6 @@
     --radius: 0.5rem;
   }
 
-  .dark {
-    --background: 20 14.3% 4.1%;
-    --foreground: 0 0% 95%;
-    --card: 24 9.8% 10%;
-    --card-foreground: 0 0% 95%;
-    --popover: 0 0% 9%;
-    --popover-foreground: 0 0% 95%;
-    --primary: 270 76.2% 60%;
-    --primary-foreground: 144.9 80.4% 10%;
-    --secondary: 240 3.7% 15.9%;
-    --secondary-foreground: 0 0% 98%;
-    --muted: 0 0% 15%;
-    --muted-foreground: 240 5% 64.9%;
-    --accent: 12 6.5% 15.1%;
-    --accent-foreground: 0 0% 98%;
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 0 85.7% 97.3%;
-    --border: 240 3.7% 15.9%;
-    --input: 240 3.7% 15.9%;
-    --ring: 142.4 71.8% 29.2%;
-  }
 }
 
 @layer base {
@@ -62,7 +41,7 @@
 /* HeroCards background shadow */
 .shadow {
   position: absolute;
-  background: hsl(var(--primary) / 0%);
+  background: hsl(var(--primaryShadow) / 0%);
   border-radius: 24px;
   rotate: 35deg;
 
@@ -75,11 +54,11 @@
 
 @keyframes shadow-slide {
   from {
-    background: hsl(var(--primary) / 20%);
+    background: hsl(var(--primaryShadow) / 20%);
     right: 460px;
   }
   to {
-    background: hsl(var(--primary) / 80%);
+    background: hsl(var(--primaryShadow) / 80%);
     right: 160px;
   }
 }
@@ -91,11 +70,11 @@
 
   @keyframes shadow-slide {
     from {
-      background: hsl(var(--primary) / 20%);
+      background: hsl(var(--primaryShadow) / 20%);
       right: 460px;
     }
     to {
-      background: hsl(var(--primary) / 50%);
+      background: hsl(var(--primaryShadow) / 50%);
       right: 160px;
     }
   }
@@ -111,11 +90,11 @@
 
   @keyframes shadow-slide {
     from {
-      background: hsl(var(--primary) / 20%);
+      background: hsl(var(--primaryShadow) / 20%);
       right: 280px;
     }
     to {
-      background: hsl(var(--primary) / 30%);
+      background: hsl(var(--primaryShadow) / 30%);
       right: 100px;
     }
   }

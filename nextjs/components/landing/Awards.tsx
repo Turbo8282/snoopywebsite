@@ -35,22 +35,10 @@ const sponsors: AwardsProps[] = [
 
 export const Awards = () => {
   return (
-    <section id="sponsors" className="container pt-12 md:pt-24 sm:py-32">
-      <h2 className="text-center text-2xl md:text-3xl font-bold mb-8 text-primary">
-        Our Awards
+    <section id="sponsors" className="container ">
+      <h2 className="text-center text-2xl md:text-3xl font-bold text-[#81503f]">
+        Omochi is a community
       </h2>
-
-      <div className="flex flex-wrap justify-center items-center gap-4 md:gap-8">
-        {sponsors.map(({ icon, name }: AwardsProps) => (
-          <div
-            key={name}
-            className="flex items-center gap-1 text-muted-foreground/60"
-          >
-            <span>{icon}</span>
-            <h3 className="text-xl  font-bold">{name}</h3>
-          </div>
-        ))}
-      </div>
     </section>
   );
 };

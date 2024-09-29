@@ -18,6 +18,7 @@ module.exports = {
     },
     extend: {
       colors: {
+        customBrown: '#81503f',
         border: 'hsl(var(--border))',
         input: 'hsl(var(--input))',
         ring: 'hsl(var(--ring))',
