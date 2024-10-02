@@ -4,6 +4,7 @@ import { Hero } from '@/components/landing/Hero';
 import { HowItWorks } from '@/components/landing/HowItWorks';
 import { Awards } from '@/components/landing/Awards';
 import Image from 'next/image';
+import { BentoGridDemo } from '@/components/landing/BentoImages';
 export default async function HomePage() {
   return (
     <div>
@@ -42,10 +43,10 @@ export default async function HomePage() {
         </a>
       </div>
       <Hero />
-      <Awards />
       <About />
       <HowItWorks />
       <FAQ />
+      <BentoGridDemo />
     </div>
   );
 }

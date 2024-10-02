@@ -35,8 +35,8 @@ const sponsors: AwardsProps[] = [
 
 export const Awards = () => {
   return (
-    <section id="sponsors" className="container ">
-      <h2 className="text-center text-2xl md:text-3xl font-bold text-[#81503f]">
+    <section id="sponsors" className="container">
+      <h2 className="text-center text-2xl md:text-3xl font-bold">
         Omochi is a community
       </h2>
     </section>

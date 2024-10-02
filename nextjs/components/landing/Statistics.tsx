@@ -19,8 +19,8 @@ export const Statistics = () => {
       description: 'X Followers'
     },
     {
-      quantity: 'CTO',
-      description: 'Community'
+      quantity: '200',
+      description: 'Dub Followers'
     }
   ];
 

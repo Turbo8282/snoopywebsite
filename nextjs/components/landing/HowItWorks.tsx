@@ -24,18 +24,18 @@ const features: FeatureProps[] = [
     icon: <MapIcon />,
     title: '2. Get SOL',
     description:
-      'Have SOL in your wallet to switch to $OMOCHI. If you don’t have any SOL, you can buy directly on Phantom, transfer from another wallet, or buy on another exchange and send it to your wallet.'
+      'Have SOL in your wallet to switch to $SNOOPY. If you don’t have any SOL, you can buy directly on Phantom, transfer from another wallet, or buy on another exchange and send it to your wallet.'
   },
   {
     icon: <PlaneIcon />,
     title: '3. Go to Jupiter',
     description:
-      'Connect to Jupiter. Connect your wallet in chrome. Paste the $OMOCHI token address, select $OMOCHI, and confirm. When Phantom prompts you for a wallet signature, sign.'
+      'Connect to Jupiter. Connect your wallet in chrome. Paste the $SNOOPY token address, select $SNOOPY, and confirm. When Phantom prompts you for a wallet signature, sign.'
   },
   {
     icon: <GiftIcon />,
-    title: '4. Swap for Omochi',
-    description: 'Switch SOL for $OMOCHI.'
+    title: '4. Swap for Snoopy',
+    description: 'Switch SOL for $SNOOPY.'
   }
 ];
 

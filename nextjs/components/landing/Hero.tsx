@@ -3,6 +3,7 @@ import { Button } from '@/components/ui/button';
 import { HeroCards } from './HeroCards';
 import { useState } from 'react';
 import Image from 'next/image';
+import { BoxesCore } from '../ui/background-boxes';
 export const Hero = () => {
   const [buttonText, setButtonText] = useState('Copy address');
 
@@ -24,34 +25,34 @@ export const Hero = () => {
   };
 
   return (
-    <section className="container grid lg:grid-cols-2 place-items-center py-16 md:py-32 gap-10">
-      <div className="text-center lg:text-start space-y-6">
+    <section className="container place-items-center py-16 md:py-20 gap-10">
+      <div className="text-center space-y-6">
         <main className="text-3xl md:text-5xl lg:text-6xl font-bold">
-          <Image
-            src="/landing/omochitransparent.png"
-            width="300"
-            height="300"
-            alt="Omochi cartoon"
-          />
+          <div className="flex justify-center">
+            <Image
+              src="/landing/snoopytransparent.png"
+              width="400"
+              height="400"
+              alt="Transparent snoopy"
+            />
+          </div>
           <h1 className="inline">
-            <span className="inline text-[#81503f]">$OMOCHI</span>{' '}
+            <span className="inline text-[#a156ff]">$SNOOPY</span>{' '}
             <span className="inline text-[#F4A623]">COIN</span>{' '}
+            <p className="text-lg md:text-xl text-muted-foreground lg:mx-0">
+              Snoopy coin on Solana.
+            </p>
           </h1>{' '}
           <h2></h2>
         </main>
 
-        <p className="text-lg md:text-xl text-muted-foreground md:w-10/12 mx-auto lg:mx-0">
-          The number one frog coin on Solana. Made by the omochi community, for
-          the community.
-        </p>
-
-        <div className="space-y-4 md:space-y-0 space-x-4">
+        <div className="space-y-4 md:space-y-0 space-x-4 w-1/2 mx-auto">
           <Button className="w-2/5 md:w-1/3">
             <a
               href="https://jup.ag/swap/SOL-ESVRQ6phc55VCw7sWB6JgW3PeTB6N68kvwjfsMPcpump"
               target="_blank"
             >
-              Buy $OMOCHI
+              Buy $SNOOPY
             </a>
           </Button>
           <Button
@@ -65,9 +66,9 @@ export const Hero = () => {
       </div>
 
       {/* Hero cards sections */}
-      <div className="z-10">
+      {/* <div className="z-10">
         <HeroCards />
-      </div>
+      </div> */}
     </section>
   );
 };
