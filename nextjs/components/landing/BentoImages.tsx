@@ -14,15 +14,20 @@ import Image from 'next/image';
 
 export function BentoGridDemo() {
   return (
-    <BentoGrid className="grid grid-cols-2 gap-4 mx-auto">
-      {items.map((item, i) => (
-        <BentoGridItem
-          key={i}
-          header={item.header}
-          className={'md:col-span-1'}
-        />
-      ))}
-    </BentoGrid>
+    <div>
+      <h1 className="text-center text-3xl md:text-4xl font-bold mb-12">
+        Gallery
+      </h1>
+      <BentoGrid className="grid grid-cols-2 gap-4 mx-auto">
+        {items.map((item, i) => (
+          <BentoGridItem
+            key={i}
+            header={item.header}
+            className={'md:col-span-1'}
+          />
+        ))}
+      </BentoGrid>
+    </div>
   );
 }
 
@@ -38,7 +43,6 @@ const Skeleton: React.FC<SkeletonProps> = ({ imageNumber }) => (
       objectFit="cover"
       alt={`Snoopy image ${imageNumber}`}
     />
-    dasdsa
   </div>
 );
 const items = [
