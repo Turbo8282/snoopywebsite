@@ -3,13 +3,12 @@ import { Button } from '@/components/ui/button';
 import { HeroCards } from './HeroCards';
 import { useState } from 'react';
 import Image from 'next/image';
-import { BoxesCore } from '../ui/background-boxes';
 export const Hero = () => {
   const [buttonText, setButtonText] = useState('Copy address');
 
   const copyToClipboard = () => {
     navigator.clipboard
-      .writeText('ESVRQ6phc55VCw7sWB6JgW3PeTB6N68kvwjfsMPcpump')
+      .writeText('troll')
       .then(() => {
         // Change the button text to "Copied"
         setButtonText('Copied');
@@ -48,10 +47,7 @@ export const Hero = () => {
 
         <div className="space-y-4 md:space-y-0 space-x-4 w-1/2 mx-auto">
           <Button className="w-2/5 md:w-1/3">
-            <a
-              href="https://jup.ag/swap/SOL-ESVRQ6phc55VCw7sWB6JgW3PeTB6N68kvwjfsMPcpump"
-              target="_blank"
-            >
+            <a href="" target="_blank">
               Buy $SNOOPY
             </a>
           </Button>

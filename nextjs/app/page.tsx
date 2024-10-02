@@ -11,7 +11,7 @@ export default async function HomePage() {
       <div className="justify-center pt-10 flex space-x-5">
         <a
           rel="noreferrer noopener"
-          href="https://t.me/omochis"
+          href=""
           className="opacity-60 hover:opacity-100"
         >
           <Image
@@ -24,14 +24,14 @@ export default async function HomePage() {
 
         <a
           rel="noreferrer noopener"
-          href="https://x.com/omochi_cto"
+          href=""
           className="opacity-60 hover:opacity-100"
         >
           <Image src="/landing/xlogo.svg" width="50" height="50" alt="X logo" />
         </a>
         <a
           rel="noreferrer noopener"
-          href="https://dexscreener.com/solana/3krc5n9jsrzq6m2d4fkh5jhcrsvxfrxfmdaw6fchpqkh"
+          href=""
           className="opacity-60 hover:opacity-100"
         >
           <Image

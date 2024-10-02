@@ -16,7 +16,7 @@ interface FAQProps {
 const FAQList: FAQProps[] = [
   {
     question: 'What is SNOOPY contract address?',
-    answer: 'ESVRQ6phc55VCw7sWB6JgW3PeTB6N68kvwjfsMPcpump',
+    answer: 'dsadasdasdas',
     value: 'item-1'
   }
 ];
@@ -44,7 +44,7 @@ export const FAQ = () => {
         Still have questions?{' '}
         <a
           rel="noreferrer noopener"
-          href="https://x.com/SNOOPY_cto"
+          href=""
           className="text-[primary] transition-all border-primary hover:border-b-2"
         >
           Contact us

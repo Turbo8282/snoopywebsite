@@ -11,7 +11,7 @@ export const Footer = () => {
           <div>
             <a
               rel="noreferrer noopener"
-              href="https://linktr.ee/omochisol"
+              href=""
               className="opacity-60 hover:opacity-100"
             >
               Linktree
@@ -20,7 +20,7 @@ export const Footer = () => {
           <div>
             <a
               rel="noreferrer noopener"
-              href="https://x.com/omochi_cto"
+              href=""
               className="opacity-60 hover:opacity-100"
             >
               X
@@ -30,7 +30,7 @@ export const Footer = () => {
           <div>
             <a
               rel="noreferrer noopener"
-              href="https://t.me/omochi_cn"
+              href=""
               className="opacity-60 hover:opacity-100"
             >
               Chinese Telegram
@@ -40,7 +40,7 @@ export const Footer = () => {
           <div>
             <a
               rel="noreferrer noopener"
-              href="https://t.me/omochis"
+              href=""
               className="opacity-60 hover:opacity-100"
             >
               English Telegram
@@ -50,7 +50,7 @@ export const Footer = () => {
           <div>
             <a
               rel="noreferrer noopener"
-              href="https://www.instagram.com/tomoflys/"
+              href=""
               className="opacity-60 hover:opacity-100"
             >
               Instagram
@@ -60,7 +60,7 @@ export const Footer = () => {
           <div>
             <a
               rel="noreferrer noopener"
-              href="https://www.tiktok.com/@tomoflys"
+              href=""
               className="opacity-60 hover:opacity-100"
             >
               Tiktok
@@ -71,11 +71,11 @@ export const Footer = () => {
 
       <section className="container pb-14 text-center">
         <h3>
-          &copy; 2024 OMOCHI
+          &copy; 2024 SNOOPY
           <a
             rel="noreferrer noopener"
             target="_blank"
-            href="https://github.com/leoMirandaa"
+            href=""
             className="text-primary transition-all border-primary hover:border-b-2"
           ></a>
         </h3>
