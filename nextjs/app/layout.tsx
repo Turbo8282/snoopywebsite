@@ -12,8 +12,8 @@ const PostHogPageView = dynamic(() => import('./PostHogPageView'), {
 });
 
 const meta = {
-  title: 'Omochi',
-  description: 'Omochi is a viral memecoin frog on Solana',
+  title: 'Snoopy',
+  description: 'Snoopy is a the Solana coin',
   cardImage: '/og.png',
   robots: 'follow, index',
   favicon: '/favicon.ico',
