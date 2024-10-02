@@ -45,7 +45,7 @@ export const Hero = () => {
           <h2></h2>
         </main>
 
-        <div className="space-y-4 md:space-y-0 space-x-4 w-1/2 mx-auto">
+        <div className="space-y-4 md:space-y-0 space-x-4 w-4/5 md:w-1/2 mx-auto">
           <Button className="w-2/5 md:w-1/3">
             <a href="" target="_blank">
               Buy $SNOOPY

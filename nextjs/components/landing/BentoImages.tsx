@@ -10,6 +10,7 @@ import {
   IconSignature,
   IconTableColumn
 } from '@tabler/icons-react';
+import Image from 'next/image';
 
 export function BentoGridDemo() {
   return (
@@ -18,35 +19,57 @@ export function BentoGridDemo() {
         <BentoGridItem
           key={i}
           header={item.header}
-          className={'md:col-span-3'}
+          className={'md:col-span-1'}
         />
       ))}
     </BentoGrid>
   );
 }
-const Skeleton = () => (
-  <div className="flex flex-1 w-full h-full rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100"></div>
+
+interface SkeletonProps {
+  imageNumber: number;
+}
+
+const Skeleton: React.FC<SkeletonProps> = ({ imageNumber }) => (
+  <div className="flex flex-1 w-full h-full rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100 relative">
+    <Image
+      src={`/snoopy/${imageNumber}.png`}
+      layout="fill"
+      objectFit="cover"
+      alt={`Snoopy image ${imageNumber}`}
+    />
+    dasdsa
+  </div>
 );
 const items = [
   {
-    header: <Skeleton />
+    header: <Skeleton imageNumber={1} />
   },
   {
-    header: <Skeleton />
+    header: <Skeleton imageNumber={2} />
   },
   {
-    header: <Skeleton />
+    header: <Skeleton imageNumber={3} />
   },
   {
-    header: <Skeleton />
+    header: <Skeleton imageNumber={4} />
   },
   {
-    header: <Skeleton />
+    header: <Skeleton imageNumber={5} />
   },
   {
-    header: <Skeleton />
+    header: <Skeleton imageNumber={6} />
   },
   {
-    header: <Skeleton />
+    header: <Skeleton imageNumber={7} />
+  },
+  {
+    header: <Skeleton imageNumber={8} />
+  },
+  {
+    header: <Skeleton imageNumber={9} />
+  },
+  {
+    header: <Skeleton imageNumber={10} />
   }
 ];
