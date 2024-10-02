@@ -7,7 +7,6 @@ import {
 } from '@/components/ui/card';
 import { MagnifierIcon, WalletIcon, ChartIcon } from './Icons';
 import Lottie from 'lottie-react';
-import animationBuildings from '@/public/landing/animationBuildingsCloudless.json';
 interface ServiceProps {
   title: string;
   description: string;
@@ -79,12 +78,7 @@ export const Services = () => {
           className="w-[300px] md:w-[500px] lg:w-[600px] object-contain"
           alt="About services"
         /> */}
-        <div className="flex items-end justify-center w-full h-full">
-          <Lottie
-            animationData={animationBuildings}
-            className="w-full h-auto"
-          />
-        </div>
+        <div className="flex items-end justify-center w-full h-full"></div>
       </div>
     </section>
   );
