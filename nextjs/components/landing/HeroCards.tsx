@@ -122,7 +122,7 @@ export const HeroCards = () => {
               <span className="">
                 <a
                   rel="noreferrer noopener"
-                  href="https://t.me/omochi_cn"
+                  href="https://t.me/Omochi_china"
                   className="opacity-60 hover:opacity-100"
                 >
                   Or join our Chinese Telegram
